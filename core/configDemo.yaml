@@ -1,0 +1,23 @@
+# 存放用户信息
+UserInfo: 
+  UserName: 181451080xxx # 学号
+  PassWord: xxxxxxxx
+  Token: # 若没有则可暂时留空，会根据帐号密码自动获取
+
+# 邮箱通知配置
+# 注意，这里使用的是smtp协议，需要邮箱开通该协议
+Mail: 
+  IsNotify: true # 若不想通知，则可填 `false`
+  UserName: xxxx@qq.com
+  AuthCode: xxxx # 这里是授权码，非密码
+  Host: smtp.qq.com # 根据邮箱官方提供填写
+  Port: 465
+
+HealthReport: 
+  Address: 河南省洛阳市涧西区西苑路48号
+  Latitude: 34.662858 # 维度
+  Longitude: 112.374509 # 经度
+  IsStayLocal: 1 # 是否在洛阳，0否，1是
+  Age: 21
+  BodyTemperature: 36.5 # 体温
+  Phone: 1555555555

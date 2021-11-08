@@ -1,0 +1,18 @@
+UserInfo:
+    UserName: 18145108xxx
+    PassWord: xxxxxx
+    Token: 
+Mail:
+    IsNotify: true
+    UserName: 
+    AuthCode: 
+    Host: smtp.qq.com
+    Port: 465
+HealthReport:
+    Address: 
+    Latitude: 
+    Longitude: 
+    IsStayLocal: 0
+    Age: 21
+    BodyTemperature: 36.5
+    Phone: 
